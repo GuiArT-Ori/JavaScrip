@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fichas</title>
+</head>
+<body>
+    <h1>Ficha del Personal</h1>
+    <br>
+    Codigo: <input type="text" id="Codigo">
+    <br>
+    <br>
+    Cliente: <input type="text" id="Cliente">
+    <br>
+    <br>
+    DNI: <input type="text" id="DNI">
+    <br>
+    <br>
+    Direccion: <input type="text" id="Direccion">
+    <br>
+    <br>
+    Distrito: <input type="text" id="Distrito">
+    <br>
+    <br>
+    Provincia: <input type="text" id="Provincia">
+    <br>
+    <br>
+    Departamento: <input type="text" id="Departamento">
+    <br><br>
+    <input type="button" value="ingresar" onclick="ingresar()">
+    <input type="button" value="cancelar" onclick="cancelar()">
+    <script>
+        function solonumeros(e){
+        if (event.keyCode >57 && event.keyCode  <223) event.returnValue = false;
+     }
+     function solonumeros(e){
+        if (event.keyCode >64 && event.keyCode  <126) event.returnValue = false;
+     }
+    </script>
+    
+</body>
+</html>
